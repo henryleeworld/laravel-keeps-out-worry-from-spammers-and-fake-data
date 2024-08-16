@@ -16,6 +16,10 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __abuseip:update__ 來取得最新 AbuseIPDB 的資料庫。
+```sh
+$ php artisan abuseip:update
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/` 來進行歡迎畫面瀏覽。
 
